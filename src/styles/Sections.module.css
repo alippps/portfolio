@@ -1,0 +1,161 @@
+/* ── SERTIFIKAT ── */
+.sertifikat {
+  background: var(--bg2);
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.certCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem 1.8rem;
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.certCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(129, 140, 248, 0.3);
+}
+
+.certIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(110, 231, 183, 0.15), rgba(129, 140, 248, 0.15));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.certTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.97rem;
+  margin-bottom: 0.25rem;
+}
+
+.certIssuer {
+  color: var(--accent2);
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.certDate {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+/* ── CONTACT ── */
+.contact {
+  background: var(--bg);
+  background-image: radial-gradient(ellipse 60% 50% at 50% 80%, rgba(129, 140, 248, 0.07) 0%, transparent 70%);
+}
+
+.contactInner {
+  max-width: 620px;
+}
+
+.contactDesc {
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.formGroup label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+
+.formGroup input,
+.formGroup textarea {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  outline: none;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  resize: vertical;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(110, 231, 183, 0.1);
+}
+
+.formGroup textarea {
+  min-height: 130px;
+}
+
+.sentMsg {
+  color: var(--accent);
+  font-size: 0.88rem;
+  margin-top: 0.5rem;
+}
+
+.contactSocials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.socialBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.socialBtn:hover {
+  color: var(--accent);
+  border-color: rgba(110, 231, 183, 0.3);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .formRow { grid-template-columns: 1fr; }
+}

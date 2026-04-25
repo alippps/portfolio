@@ -1,4 +1,4 @@
-# 🚀 Portfolio — Rizky | Full Stack Developer
+# 🚀 Portfolio — Alif | Web Developer
 
 Portofolio personal yang dibangun dengan **React + Vite**, menggunakan CSS Modules dan animasi CSS murni.
 

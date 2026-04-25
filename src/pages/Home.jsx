@@ -9,7 +9,7 @@ export default function Home() {
           <div className={styles.homeTag}>Available for work</div>
 
           <h1 className={styles.homeH1}>
-            Hi, I'm <span className={styles.grad}>Rizky</span>
+            Hi, I'm <span className={styles.grad}>Alify</span>
             <br />
             Full Stack
             <br />

@@ -97,8 +97,8 @@ export const stats = [
 export const navLinks = ["Home", "About", "Project", "Sertifikat", "Contact"];
 
 export const socials = [
-  { icon: "🐙", label: "GitHub",   href: "https://github.com/username" },
+  { icon: "🐙", label: "GitHub", href: "https://github.com/username" },
   { icon: "💼", label: "LinkedIn", href: "https://linkedin.com/in/username" },
-  { icon: "🐦", label: "Twitter",  href: "https://twitter.com/username" },
-  { icon: "📧", label: "Email",    href: "mailto:rizky@email.com" },
+  { icon: "🐦", label: "Twitter", href: "https://twitter.com/username" },
+  { icon: "📧", label: "Email", href: "mailto:Alify@email.com" },
 ];

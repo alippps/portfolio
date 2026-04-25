@@ -66,7 +66,7 @@ Semua data portofolio ada di **`src/data/portfolioData.js`**:
 - `stats` → Statistik (tahun, proyek, klien)
 - `socials` → Link sosial media
 
-Ganti nama **Rizky** di:
+Ganti nama **Alify** di:
 - `src/pages/Home.jsx` (heading hero)
 - `src/components/Footer.jsx`
 - `index.html` (title & meta description)

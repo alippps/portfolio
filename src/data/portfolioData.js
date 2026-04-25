@@ -100,5 +100,5 @@ export const socials = [
   { icon: "🐙", label: "GitHub", href: "https://github.com/username" },
   { icon: "💼", label: "LinkedIn", href: "https://linkedin.com/in/username" },
   { icon: "🐦", label: "Twitter", href: "https://twitter.com/username" },
-  { icon: "📧", label: "Email", href: "mailto:Alify@email.com" },
+  { icon: "📧", label: "Email", href: "mailto:Alif@email.com" },
 ];

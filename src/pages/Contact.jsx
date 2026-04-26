@@ -35,7 +35,7 @@ export default function Contact() {
               <input
                 id="name"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Your Name"
                 value={form.name}
                 onChange={handleChange}
               />
@@ -46,7 +46,7 @@ export default function Contact() {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="john@email.com"
+                placeholder="your@email.com"
                 value={form.email}
                 onChange={handleChange}
               />

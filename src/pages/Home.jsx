@@ -6,12 +6,12 @@ export default function Home() {
       <div className={styles.homeGrid}>
         {/* Left: Text */}
         <div>
-          <div className={styles.homeTag}>Available for work</div>
+          <div className={styles.homeTag}>Under Development</div>
 
           <h1 className={styles.homeH1}>
             Hi, I'm <span className={styles.grad}>Alif</span>
             <br />
-            Full Stack
+            Web
             <br />
             Developer
           </h1>
@@ -32,7 +32,7 @@ export default function Home() {
           <div className={styles.orb + " " + styles.orb1} />
           <div className={styles.orb + " " + styles.orb2} />
           <div className={styles.avatarRing}>
-            <div className={styles.avatarInner}>👨‍💻</div>
+            <div className={styles.avatarInner}>🛠️</div>
           </div>
         </div>
       </div>

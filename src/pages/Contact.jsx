@@ -11,7 +11,9 @@ export default function Contact() {
   };
 
   const handleSubmit = () => {
-    if (!form.name || !form.email || !form.message) return;
+    if (!form.name || !form.email || !form.message)
+      alert("Mohon lengkapi Nama, Email, dan Pesan sebelum mengirim.");
+      return;
     // TODO: Integrate with emailjs / backend API
     setSent(true);
     setForm({ name: "", email: "", subject: "", message: "" });
@@ -23,6 +25,7 @@ export default function Contact() {
       <div className={`${s.contactInner} reveal`}>
         <p className="section-label">Kontak</p>
         <h2 className="section-title">Mari Bekerja Sama</h2>
+        <h4 className="section-point">In development</h4>
         <p className={s.contactDesc}>
           Punya proyek menarik? Ingin berdiskusi tentang peluang kerja sama?
           Saya selalu terbuka untuk percakapan baru.

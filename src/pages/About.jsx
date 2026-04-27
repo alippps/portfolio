@@ -12,7 +12,7 @@ export default function About() {
 
           <div className={styles.aboutText}>
             <p>
-              Saya adalah seorang Full Stack Developer dengan pengalaman 4+ tahun
+              Saya adalah seorang Web Developer dengan pengalaman 2+ tahun
               membangun aplikasi web yang scalable dan performant. Saya percaya bahwa
               kode yang baik adalah kode yang mudah dibaca, dipelihara, dan teruji.
             </p>

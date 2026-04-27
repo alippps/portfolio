@@ -84,14 +84,13 @@ export const certificates = [
 
 export const skills = [
   "JavaScript", "TypeScript", "React", "Next.js", "Node.js",
-  "Express", "MongoDB", "PostgreSQL", "TailwindCSS",
-  "Docker", "Git", "Figma", "Python", "REST API", "GraphQL",
+  "Express", "PostgreSQL", "TailwindCSS",
+  "Docker", "Git", "Figma", "Python", "REST API",
 ];
 
 export const stats = [
-  { number: "4+", description: "Tahun Pengalaman" },
-  { number: "30+", description: "Proyek Selesai" },
-  { number: "15+", description: "Klien Puas" },
+  { number: "2+", description: "Tahun Pengalaman" },
+  { number: "20+", description: "Proyek Selesai" },
 ];
 
 export const navLinks = ["Home", "About", "Project", "Sertifikat", "Contact"];
